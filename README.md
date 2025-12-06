@@ -1,8 +1,6 @@
 # VacancyParser - система поиска и сохранения вакансий с hh.ru
 
 [![Python](https://img.shields.io/badge/Python-3.14-blue.svg)](https://www.python.org/)
-[![Poetry](https://img.shields.io/badge/Poetry-1.8-black.svg)](https://python-poetry.org/)
-
 Система для поиска вакансий с сайта hh.ru с возможностью сохранения в различных форматах (JSON, CSV, TXT) и фильтрации по заданным критериям.
 
 
