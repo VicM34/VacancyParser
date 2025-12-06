@@ -1,0 +1,19 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "vacancyparser"
+version = "0.1.0"
+description = "Vacancy parser for hh.ru"
+authors = ["Developer <dev@example.com>"]
+packages = [{include = "vacancyparser", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.14"
+requests = "^2.32.5"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0.0"
+types-requests = "^2.32.4.20250913"
+types-setuptools = "^80.9.0.20250822"
